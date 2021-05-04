@@ -33,6 +33,8 @@ You can also embed plots, for example:
 
 These are lots of plots
 
+why isnt this working!!!
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
