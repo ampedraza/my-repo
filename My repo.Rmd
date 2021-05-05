@@ -35,6 +35,17 @@ These are lots of plots
 
 why isnt this working!!!
 
+Ok, that worked.
+So the steps are:
+
+1. make a repo
+2. clone that repo address using the green clone button.
+3. in R: make a new project > do version control> put in addy, > put in folder location info
+4. click create.
+5. Start a new file - write in it, & save
+6. Pull from repo first with blue arrow.
+7. then hit COMMIT button.
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
