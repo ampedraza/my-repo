@@ -52,6 +52,9 @@ So the steps are:
 
 What about branching?
 
+So, going to work on this thing.
+Now I have it set up so that it says"Brnach"in upper right corner. So I will save this and then commit to the branch I guess. 
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
