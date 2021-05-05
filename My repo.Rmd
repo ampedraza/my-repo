@@ -1,0 +1,59 @@
+---
+title: "My repo Rmd"
+author: "Alison Pedraza"
+date: "5/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+
+
+
+### Lots of cars
+
+
+x = 2+5
+x
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+These are lots of plots
+
+why isnt this working!!!
+
+blaaahhh
+
+Ok, that worked.
+So the steps are:
+
+1. make a repo
+2. clone that repo address using the green clone button.
+3. in R: make a new project > do version control> put in addy, > put in folder location info
+4. click create.
+5. Start a new file - write in it, & save
+6. Pull from repo first with blue arrow.
+7. then hit COMMIT button.
+8. Then hit the green push
+
+
+What about branching?
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
