@@ -45,9 +45,11 @@ So the steps are:
 3. in R: make a new project > do version control> put in addy, > put in folder location info
 4. click create.
 5. Start a new file - write in it, & save
-6. Pull from repo first with blue arrow.
+6. Pull from the main branch with blue arrow.
 7. then hit COMMIT button.
+8. Then hit the green arrow to push new stuff
 
+9. If committing to branch, need to commit, then push into the branch: make sure to select BrANCH you want when in the commit window.
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
